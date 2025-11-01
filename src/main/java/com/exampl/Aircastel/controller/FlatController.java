@@ -7,5 +7,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("flats")
 public class FlatController {
 
-    
+    public void test(){
+        System.out.println("hello");
+    }
+
 }
